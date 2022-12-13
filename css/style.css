@@ -1,0 +1,687 @@
+  * {
+  padding: 0;
+  margin: 0;
+  font-family:'My Font';
+  box-sizing: border-box;
+    
+}
+@font-face {
+  font-family: 'My Font';
+  src: url(Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}   
+body {
+  display: block;
+  background-color: #EDF7D2;
+  color: #5B5B5B; 
+}
+.main {
+  width: 100%;
+  display: flex;
+}
+.right-container {
+  width: 85%;
+  /* width: auto; */
+}
+.sticky {
+  position: sticky;
+  top: 0;
+}
+.nav-holder {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 15%;
+  background-color: #5B5B5B;
+}
+.list {
+  font-size: 15px;
+  color: #EDF7B5;
+}
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+}
+ul#remove {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 1em;
+}
+
+.top-holder {
+  width: 100%;
+  height: 100vh;
+  /* display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  padding: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.top-holder > div {
+  text-align: center;
+}
+.front-container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+h1 {
+  font-size: 70px;
+}
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+#lastname {
+  color: #C9C19F;
+}
+.top-holder img {
+  padding: 0.25rem;
+  background-color: #EDF7B5;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  border: 15px;
+  border-color: #EDF7B5;
+    
+    
+}
+
+.content-holder {
+  /* width: auto; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #5B5B5B;
+  gap: 4em;
+
+
+}
+.content-container {
+  padding: 1rem;
+  background-color: #C9C19F;
+  width: 600px;
+  height: auto;
+  border-radius: 5px;
+  border-color: #EDF7B5;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction:column;
+  gap: 10px;
+}
+.elem-logo {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.elem-logo img{
+  height: 100px;
+  width: 100px;
+}
+.elem-desc{
+  width: 65%;
+  text-align: justify;
+}
+.elem-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hs-logo {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.hs-logo img{
+  height: 100px;
+  width: 100px;
+}   
+.hs-desc{
+  width: 65%;
+  text-align: justify;
+}
+.hs-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.univ-logo {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+}
+.univ-logo img{
+  height: 100px;
+  width: 100px;
+}
+.univ-desc{
+  width: 65%;
+  text-align: justify;
+}
+.univ-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.skills-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#skills-holder img {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+}
+.cont-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5em;
+}
+.contact-logo {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.5em;
+}
+.contact-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+
+}
+.contact-desc {
+  width: 60%;
+  text-align: justify;
+}
+a:link { text-decoration: none; color: #EDF7B5; }
+a:visited { text-decoration: none; color: #EDF7B5;}
+a:hover { text-decoration: underline; color: #EDF7B5;}
+a:active { text-decoration: underline; color: #EDF7B5;}
+
+/* .clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: block;
+}
+.clearfix::after {
+    clear:both;  
+}*/
+@media only screen and (min-width:600px) and (max-width:768px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family:'My Font';
+    box-sizing: border-box;
+      
+  }
+  @font-face {
+    font-family: 'My Font';
+    src: url(Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+  }   
+  body {
+    display: block;
+    background-color: #EDF7D2;
+    color: #5B5B5B; 
+  }
+  .main {
+    width: 100%;
+    display: flex;
+  }
+  .right-container {
+    width: 85%;
+    /* width: auto; */
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  .nav-holder {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120vh;
+    width: 15%;
+    background-color: #5B5B5B;
+  }
+  .list {
+    font-size: 15px;
+    color: #EDF7B5;
+  }
+  .brand-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  ul#remove {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 1em;
+  }
+  
+  .top-holder {
+    width: 100%;
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .top-holder > div {
+    text-align: center;
+  }
+  .front-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  #lastname {
+    color: #C9C19F;
+  }
+  .top-holder img {
+    padding: 0.25rem;
+    background-color: #EDF7B5;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    border: 15px;
+    border-color: #EDF7B5;
+      
+      
+  }
+  
+  .content-holder {
+    /* width: auto; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #5B5B5B;
+    gap: 4em;
+  
+  
+  }
+  .content-container {
+    padding: 1rem;
+    background-color: #C9C19F;
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    border-color: #EDF7B5;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction:column;
+    row-gap: 10px;
+  }
+  .elem-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .elem-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .elem-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .elem-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hs-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .hs-logo img{
+    height: 100px;
+    width: 100px;
+  }   
+  .hs-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .hs-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .univ-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .univ-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .univ-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .univ-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  #skills-holder img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .cont-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5em;
+  }
+  .contact-logo {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+  }
+  .contact-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  
+  }
+  .contact-desc {
+    width: 60%;
+    text-align: justify;
+  }
+  a:link { text-decoration: none; color: #EDF7B5; }
+  a:visited { text-decoration: none; color: #EDF7B5;}
+  a:hover { text-decoration: underline; color: #EDF7B5;}
+  a:active { text-decoration: underline; color: #EDF7B5;}
+  
+}
+/* MOBILE */
+@media only screen and (min-width:320px) and (max-width:600px) {
+  * {
+    padding: 0;
+    margin: 0;
+    font-family:'My Font';
+    box-sizing: border-box;
+      
+  }
+  @font-face {
+    font-family: 'My Font';
+    src: url(Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+  }   
+  body {
+    display: block;
+    background-color: #EDF7D2;
+    color: #5B5B5B; 
+  }
+  .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .right-container {
+    width: 100%;
+    /* width: auto; */
+  }
+  .sticky {
+    position: sticky;
+    top: 0;
+  }
+  .nav-holder {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: column; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 200px;
+    width: 120%;
+    background-color: #5B5B5B;
+  }
+  .list {
+    font-size: 15px;
+    color: #EDF7B5;
+  }
+  .brand-logo img {
+    width: 10em;
+    height: 10em;
+  }
+  ul#remove {
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 1em;
+  }
+  
+  .top-holder {
+    width: 100%;
+    height: 100vh;
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10px;
+    padding: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .top-holder > div {
+    text-align: center;
+  }
+  .front-container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  #lastname {
+    color: #C9C19F;
+  }
+  .top-holder img {
+    padding: 0.25rem;
+    background-color: #EDF7B5;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    border: 15px;
+    border-color: #EDF7B5;
+      
+      
+  }
+  
+  .content-holder {
+    /* width: auto; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #5B5B5B;
+    gap: 4em;
+  
+  
+  }
+  .content-container {
+    padding: 1rem;
+    background-color: #C9C19F;
+    width: 600px;
+    height: auto;
+    border-radius: 5px;
+    border-color: #EDF7B5;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+  }
+  .elem-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .elem-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .elem-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .elem-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .hs-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .hs-logo img{
+    height: 100px;
+    width: 100px;
+  }   
+  .hs-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .hs-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .univ-logo {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+  }
+  .univ-logo img{
+    height: 100px;
+    width: 100px;
+  }
+  .univ-desc{
+    width: 65%;
+    text-align: justify;
+  }
+  .univ-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  #skills-holder img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  .cont-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.5em;
+  }
+  .contact-logo {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.5em;
+  }
+  .contact-logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  
+  }
+  .contact-desc {
+    width: 60%;
+    text-align: justify;
+  }
+  a:link { text-decoration: none; color: #EDF7B5; }
+  a:visited { text-decoration: none; color: #EDF7B5;}
+  a:hover { text-decoration: underline; color: #EDF7B5;}
+  a:active { text-decoration: underline; color: #EDF7B5;}
+  
+}
